@@ -68,11 +68,11 @@ gulp.task('clean', () => del([ dir.dist ]) );
 gulp.task('move-files', () => {  
     let css = gulp.src(path.join(dir.styles, 'print.css'))
       .pipe(gulp.dest(path.join(dir.dist)));
-    // let readme = gulp.src(['README.md'])
-    //   .pipe(gulp.dest(path.join(dir.src, 'markdown')));
+    let cover = gulp.src(path.join(dir.src, 'covers/frontcover.jpg'))
+        .pipe(gulp.dest(path.join(dir.dist)));
     // let scripts = gulp.src(['assets/scripts/gallery.js', 'assets/vendor/js.cookie.js'])
     //   .pipe(gulp.dest(path.join(dir.dist, 'scripts')));
-      return merge(css);
+      return merge(css, cover);
   });
 
 

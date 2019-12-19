@@ -7,19 +7,49 @@
 {% block content %}
 
 <div class="frontcover">
-    <h1>Nell & Rich - Recipes</h1>
-    <h2>2019</h2>
-    <img src="frontcover.jpg" />
+    <h1>{{ siteTitle }}</h1>
+    <h2>{{ siteDesc }}</h2>
+    <img src="{{ frontCover }}" />
 </div>
 
 <nav id="toc">
     <ul>
-        {{ toc('Stew') }}
+        {{ toc('Stew') }} 
+        {{ toc('Bibimbap') }}
+        {{ toc('Curry sauce') }}
+        {{ toc('Ramen') }}
+        {{ toc('Seitan Bourguignon') }}
+        {{ toc('Aglio olio e peperoncino') }}
+        {{ toc('Puttanesca') }}
+        {{ toc('Pizza') }}
+        {{ toc('Chilli cheese fries') }}
+        {{ toc('Green Bean Casserole Recipe') }}
+        {{ toc('Yorkshire Puddings') }}
+        {{ toc('Mayu (Black Garlic Oil)') }}
+        {{ toc('Pesto') }}
+        {{ toc('Chilli crisp oil') }}
+        {{ toc('Tahini dressing') }}
+        {{ toc('Coconut Tres Leches Cake') }}
     </ul>
 </nav>
 
 <div class="container">
-    {{ chapter('Stew', 'markdown/stew.md') }}
+    {{ chapter('Stew', 'markdown/Stew.md') }} 
+    {{ chapter('Bibimbap', 'markdown/Bibimbap.md') }}
+    {{ chapter('Curry sauce', 'markdown/Curry sauce.md') }}
+    {{ chapter('Ramen', 'markdown/Ramen.md') }}
+    {{ chapter('Seitan Bourguignon', 'markdown/Seitan Bourguignon.md') }}
+    {{ chapter('Aglio olio e peperoncino', 'markdown/Aglio olio e peperoncino.md') }}
+    {{ chapter('Puttanesca', 'markdown/Puttanesca.md') }}
+    {{ chapter('Pizza', 'markdown/Pizza.md') }}
+    {{ chapter('Chilli cheese fries', 'markdown/Chilli cheese fries.md') }}
+    {{ chapter('Green Bean Casserole Recipe', 'markdown/Green Bean Casserole Recipe.md') }}
+    {{ chapter('Yorkshire Puddings', 'markdown/Yorkshire Puddings.md') }}
+    {{ chapter('Mayu (Black Garlic Oil)', 'markdown/Mayu.md') }}
+    {{ chapter('Pesto', 'markdown/Pesto.md') }}
+    {{ chapter('Chilli crisp oil', 'markdown/Chilli crisp oil.md') }}
+    {{ chapter('Tahini dressing', 'markdown/Tahini dressing.md') }}
+    {{ chapter('Coconut Tres Leches Cake', 'markdown/Coconut Tres Leches Cake.md') }}
 </div>
 
 {% endblock %} 

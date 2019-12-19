@@ -16,81 +16,18 @@ h1, h2, h3, h4, h5, h6 {
   page-break-after: avoid;
 } 
 
-h1 { 
-  padding: 2em 0 1.5em 0;
-  margin: 0;
-  font-size: 2em; 
-  line-height:1.1em;
-  font-weight: 900;
-}
-
-h2 { 
-  font-size: 1.2em;
-  font-weight: bold;
-}
-
-h3 { 
-  font-size: 1em;
-  font-weight: bold;
-}  
-
-span.caps {
-	font-variant: small-caps;
-}
-
-q::before {
-  content: "\201C";
-}
-
-q::after {
-  content: "\201D";
-}
-
+h1 { padding: 2em 0 1.5em 0;margin: 0;font-size: 2em; line-height:1.1em;font-weight: 900;}
+h2 { font-size: 1.2em;font-weight: bold;}
+h3 { font-size: 1em;font-weight: bold;}  
+span.caps {font-variant: small-caps;}
+q::before {content: "\201C";}
+q::after {content: "\201D";}
 p { margin: 0 }
 p + p { text-indent: 1.3em }
 p.sidenote + p, p.caption, p.art { text-indent: 0 } 
-
-br {
-	margin:0 0 1em 0;
-	display:block;
-}
-
-p.author {
-  margin-top: 2em;
-  text-indent: 0;
-  text-align: right;
-}  
-
-p.commons {
-	margin-top: 2em; 
-	} 
-	
-ul.understanding 	{
-margin: 2em 0 0 0;
- }
-
+br {margin:0 0 1em 0;display:block;}
 pre {  margin: 1em 1.3em; }
-
-a { text-decoration: none; color: black }
-
-/*clear*/
-.clear {clear:both;line-height:0px;font-size:0px;height:0px;padding:0px;margin:0px;border:none;}
-/* Clearfix */
-.clearfix:after {visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
-* html .clearfix {zoom:1;}
-/* IE6 */
-*:first-child+html .clearfix {zoom:1;}
-/* IE7 */
-.clr {overflow:hidden;/*method for clearing floats*/}
-
-.imprint p.commons {font-weight:bold;}
-.imprint ul.license-properties {margin:1em 0 0 0;padding:0;}	
-.imprint ul.license-properties ul {margin:0.5em 0;}
-.imprint ul.license-properties li {
-	list-style-type:none;
-	font-size:9pt;  
-	margin:0 0 0.5em 0;
-}        
+a { text-decoration: none; color: black }  
 
 @page {
   margin: 27mm 16mm 27mm 16mm;
@@ -104,14 +41,12 @@ a { text-decoration: none; color: black }
   }
 }
 
-
 /* define default page and names pages: cover, blank, frontmatter */
-
 @page :left {
   @top-left {
     font: 8pt "Garamond", Baskerville, Palatino, Minion Pro, Hoefler Text, Cochin, Times New Roman, serif; ;
-    content: "pinboard.in '11";
-	font-style:italic;
+    content: "Vegan Recipes 2019";
+	  font-style:italic;
     vertical-align: bottom;
     padding-bottom: 2em;
   }
@@ -127,7 +62,7 @@ a { text-decoration: none; color: black }
 @page :right {
   @top-right {
     font: 8pt "Garamond", Baskerville, Palatino, Minion Pro, Hoefler Text, Cochin, Times New Roman, serif; ;    
-	font-style:italic;
+	  font-style:italic;
     content: string(header, first); 
     vertical-align: bottom;
     padding-bottom: 2em; 
@@ -145,7 +80,7 @@ a { text-decoration: none; color: black }
 @page frontmatter :left {
   @top-left {
     font: 8pt "Garamond", Baskerville, Palatino, Minion Pro, Hoefler Text, Cochin, Times New Roman, serif; ; 
-	font-style:italic;  
+	  font-style:italic;  
     content: string(title);
     vertical-align: bottom;
     padding-bottom: 2em;
@@ -173,7 +108,7 @@ a { text-decoration: none; color: black }
 
   @bottom-right {
     font: 8pt "Garamond", Baskerville, Palatino, Minion Pro, Hoefler Text, Cochin, Times New Roman, serif; ; 
-	font-style:italic;  
+	  font-style:italic;  
     content: counter(page, lower-roman);
     text-align: right;
     vertical-align: top;
@@ -191,12 +126,21 @@ a { text-decoration: none; color: black }
   @bottom-right { content: normal }
 } 
 
+/*imprint*/
+.imprint p.commons {font-weight:bold;}
+.imprint ul.license-properties {margin:1em 0 0 0;padding:0;}	
+.imprint ul.license-properties ul {margin:0.5em 0;}
+.imprint ul.license-properties li {
+	list-style-type:none;
+	font-size:9pt;  
+	margin:0 0 0.5em 0;
+}
+
 /* footnotes */
-
 .footnote {
-  display: none;                   /* default rule */
+  display: none; /* default rule */
 
-  display: prince-footnote;        /* prince-specific rules */
+  display: prince-footnote; /* prince-specific rules */
   position: footnote;
   footnote-style-position: inside;
 
@@ -216,7 +160,6 @@ a { text-decoration: none; color: black }
   color: green;
   padding-right: 0.4em;
 }
-
 
 /*
    A book consists of different types of sections. We propose to use
@@ -244,15 +187,12 @@ a { text-decoration: none; color: black }
 */
 
 /* which section uses which named page */
-
 div.halftitlepage, div.titlepage, div.imprint, div.dedication, div.blank { page: blank }
 div.foreword, div#toc, div.preface { page: frontmatter }
 
-
 /* page breaks */
-
 div.frontcover, div.halftitlepage, div.titlepage, div.backcover { page-break-before: right }
-div.imprint, div.blank { page-break-before: always }
+div.blank { page-break-before: always }
 div.dedication, div.foreword, div.preface, div.chapter, div.reference, 
 div.appendix, div.bibliography, div.glossary, div.index, div.colophon { 
   page-break-before: always 
@@ -305,7 +245,7 @@ div.frontcover p {
 }   
 
 
-div.backcover { page: backcover;  }    
+div.backcover {page: backcover;}    
 div.backcover img {
   position: absolute;
   width: 6in; height: 9in; 
@@ -327,56 +267,37 @@ div.titlepage p, div.halftitlepage p {
 
 
 /* TOC */ 
-#toc {
-	margin:0; 
-	padding:0;  
-	list-style-type: none;  
-}
 #toc ul { 
+  list-style-type: none;  
   margin: 0 0 0 1em; 
   padding: 0;
   font-weight: normal;     
 }
-#toc > li { 
+#toc li { 
   font-weight: bold;
   margin-bottom: 0;
-
+  counter-increment: toc-chapter;
 }    
-#toc a {margin:0;}
-#toc a::after {
-  content: leader('.') target-counter(attr(href), page);
+#toc li a {margin:0;}
+#toc li a:after {
+  content: leader('.') target-counter(attr(href), chapter);
   font-style: normal;
 }
-#toc > li.frontmatter a::after {
-  content: leader('.') target-counter(attr(href), page, lower-roman);
-  font-style: normal;
-}
-#toc > li.endmatter a::after {
-  content: leader('.') target-counter(attr(href), page);
-  font-style: normal;
-}
-#toc > li::before {
-  content: "Chapter " counter(toc-chapter, decimal);
+#toc li:before {
+  content: "Recipe " counter(toc-chapter, decimal);
   display: block;
   margin: 1.5em 0 0.1em 0cm;
   font-weight: normal;
-  counter-increment: toc-chapter;
+  
   page-break-after: avoid;   
-  font-size: 1.2em;   
+  font-size: 1.2em;
 }
 
 /* chapter numbers */
-
 div.chapter { counter-increment: chapter; }  
             
 /*images*/
-div.chapter img {display:block;/*border:0.25cm solid #333333;*/max-width:4in;clear:both;margin:0.5in auto;}
- 
-/*exceptions*/
-.commenter-profile img, .commenter-profile, img.bug {dispaly:none;}   
-table {border: none;}
-div {border: 0.01cm solid #FFFFFF;}
-td {border: none; }
+div.chapter img {display:block;max-width:4in;clear:both;margin:0.5in auto;}
 
 h1::before {
   white-space: pre;
@@ -385,20 +306,18 @@ h1::before {
   content: " \A";  /* ornaments */
 }
 
-div.chapter h1::before { content: "Chapter " counter(chapter) " \A"; }
+div.chapter h1::before { content: "Recipe " counter(chapter) " \A"; }
 
 div.frontcover h1::before, div.titlepage h1::before, div.halftitlepage h1::before {
   content: normal;   /* that is, none */
 }
 
-h1 { string-set: header content();}
-div.chapter h1 { string-set: header "Chapter " counter(chapter) ": " content(); }
+h1 { string-set: header content(); }
+div.chapter h1 { string-set: header "Recipe " counter(chapter) ": " content(); }
 
 .chapter { page-break-before: always }
 
-
 /* index */
-
 ul.index { 
   list-style-type: none;
   margin: 0; padding: 0;

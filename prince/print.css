@@ -83,15 +83,6 @@ a { text-decoration: none; color: black }
 /* IE7 */
 .clr {overflow:hidden;/*method for clearing floats*/}
 
-.imprint p.commons {font-weight:bold;}
-.imprint ul.license-properties {margin:1em 0 0 0;padding:0;}	
-.imprint ul.license-properties ul {margin:0.5em 0;}
-.imprint ul.license-properties li {
-	list-style-type:none;
-	font-size:9pt;  
-	margin:0 0 0.5em 0;
-}        
-
 @page {
   margin: 27mm 16mm 27mm 16mm;
   size: 6in 9in;
@@ -110,8 +101,8 @@ a { text-decoration: none; color: black }
 @page :left {
   @top-left {
     font: 8pt "Garamond", Baskerville, Palatino, Minion Pro, Hoefler Text, Cochin, Times New Roman, serif; ;
-    content: "pinboard.in '11";
-	font-style:italic;
+    content: "Vegan Recipes";
+	  font-style:italic;
     vertical-align: bottom;
     padding-bottom: 2em;
   }
@@ -127,7 +118,7 @@ a { text-decoration: none; color: black }
 @page :right {
   @top-right {
     font: 8pt "Garamond", Baskerville, Palatino, Minion Pro, Hoefler Text, Cochin, Times New Roman, serif; ;    
-	font-style:italic;
+	  font-style:italic;
     content: string(header, first); 
     vertical-align: bottom;
     padding-bottom: 2em; 
@@ -145,7 +136,7 @@ a { text-decoration: none; color: black }
 @page frontmatter :left {
   @top-left {
     font: 8pt "Garamond", Baskerville, Palatino, Minion Pro, Hoefler Text, Cochin, Times New Roman, serif; ; 
-	font-style:italic;  
+	  font-style:italic;  
     content: string(title);
     vertical-align: bottom;
     padding-bottom: 2em;
@@ -373,7 +364,6 @@ div.chapter { counter-increment: chapter; }
 div.chapter img {display:block;/*border:0.25cm solid #333333;*/max-width:4in;clear:both;margin:0.5in auto;}
  
 /*exceptions*/
-.commenter-profile img, .commenter-profile, img.bug {dispaly:none;}   
 table {border: none;}
 div {border: 0.01cm solid #FFFFFF;}
 td {border: none; }
