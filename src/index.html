@@ -9,11 +9,11 @@
 <div class="frontcover">
     <h1>{{ siteTitle }}</h1>
     <h2>{{ siteDesc }}</h2>
-    <img src="{{ frontCover }}" />
+    <img src="{{ frontCover }}" alt="Cover"/>
 </div>
 
 <nav id="toc">
-    <ul>
+    <ol>
         {{ toc('Stew') }} 
         {{ toc('Bibimbap') }}
         {{ toc('Curry sauce') }}
@@ -30,7 +30,7 @@
         {{ toc('Chilli crisp oil') }}
         {{ toc('Tahini dressing') }}
         {{ toc('Coconut Tres Leches Cake') }}
-    </ul>
+    </ol>
 </nav>
 
 <div class="container">

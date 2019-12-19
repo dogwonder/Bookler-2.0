@@ -267,28 +267,21 @@ div.titlepage p, div.halftitlepage p {
 
 
 /* TOC */ 
-#toc ul { 
+#toc ol { 
   list-style-type: none;  
   margin: 0 0 0 1em; 
   padding: 0;
   font-weight: normal;     
 }
-#toc li { 
-  font-weight: bold;
-  margin-bottom: 0;
-  counter-increment: toc-chapter;
-}    
-#toc li a {margin:0;}
-#toc li a:after {
-  content: leader('.') target-counter(attr(href), chapter);
-  font-style: normal;
-}
-#toc li:before {
+.bodymatter { font-weight: bold;margin-bottom: 0;counter-increment: toc-chapter;}    
+.bodymatter a::after { content: leader('.') target-counter(attr(href, url), page, decimal) }
+
+
+.bodymatter::before {
   content: "Recipe " counter(toc-chapter, decimal);
   display: block;
   margin: 1.5em 0 0.1em 0cm;
   font-weight: normal;
-  
   page-break-after: avoid;   
   font-size: 1.2em;
 }

@@ -1,15 +1,14 @@
 {% macro chapter(heading, file) %}
 <div class="chapter">
 {% if heading %}
-  <a name="{{ heading | lower |  replace(" ", "_") }}"></a>
-  <h1 class="chapter__heading">{{ heading }}</h1>
+  <h1><a id="chapter_{{ heading | lower |  replace(" ", "_") }}">{{ heading }}</a></h1>
 {% endif %}
 {% if file %}
-  <div class="chapter__content">
+  <div>
     {% markdown %}
       {% include file %}
     {% endmarkdown %}
   </div>
 {% endif %}  
-</div>
+</div><!--end chapter-->
 {% endmacro %}
