@@ -2,6 +2,8 @@
 
 Create PDF books from HTML
 
+Based on [Bookler](https://github.com/felixcohen/Bookler) 
+
 `npm install gulp --save-dev`
 `npm install`
 
