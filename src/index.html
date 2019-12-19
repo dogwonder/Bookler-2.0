@@ -1,0 +1,25 @@
+{% set body_class = "bookler-index" %}
+
+{% extends "layout/_layout.njk" %}
+{% from "macros/chapter.njk" import chapter %}
+{% from "macros/toc.njk" import toc %}
+
+{% block content %}
+
+<div class="frontcover">
+    <h1>Nell & Rich - Recipes</h1>
+    <h2>2019</h2>
+    <img src="frontcover.jpg" />
+</div>
+
+<nav id="toc">
+    <ul>
+        {{ toc('Stew') }}
+    </ul>
+</nav>
+
+<div class="container">
+    {{ chapter('Stew', 'markdown/stew.md') }}
+</div>
+
+{% endblock %} 

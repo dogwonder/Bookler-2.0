@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if pageTitle %}{{ siteTitle }} - {{ pageTitle }}{% else %}{{ siteTitle }}{% endif %}</title>
+    <meta name="description" content="{{ siteDesc }}"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="print.css">
+</head>
+<body class="bookler {% if body_class %} {{ body_class }}{% endif %}">
+    {% block content %}
+        {# Main content goes here. #}
+    {% endblock %}
+</body>
+</html>

@@ -1,0 +1,3 @@
+{% macro toc(heading) %}
+<li><a href="{{ heading | lower |  replace(" ", "_") }}">{{ heading }}</a></li>
+{% endmacro %}
