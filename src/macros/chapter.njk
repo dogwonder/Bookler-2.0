@@ -1,7 +1,7 @@
-{% macro chapter(heading, file) %}
+{% macro chapter(chapterID, heading, file) %}
 <div class="chapter">
 {% if heading %}
-  <h1><a id="chapter_{{ heading | lower |  replace(" ", "_") }}">{{ heading }}</a></h1>
+  <h1><a id="{{ chapterID }}">{{ heading }}</a></h1>
 {% endif %}
 {% if file %}
   <div>

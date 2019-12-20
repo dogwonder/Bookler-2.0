@@ -1,5 +1,53 @@
 {  
    "siteTitle": "Vegan Recipes 2019", 
    "siteDesc": "A PDF book", 
-   "frontCover": "frontcover.jpg"
+   "frontCover": "frontcover.jpg",
+   "recipes": [{
+    "dish": "Stew"
+   }, 
+   {
+    "dish": "Bibimbap"
+   }, 
+   {
+    "dish": "Curry sauce"
+   }, 
+   {
+    "dish": "Ramen"
+   }, 
+   {
+    "dish": "Seitan Bourguignon"
+   }, 
+   {
+    "dish": "Aglio olio e peperoncino"
+   }, 
+   {
+    "dish": "Puttanesca"
+   }, 
+   {
+    "dish": "Pizza"
+   }, 
+   {
+    "dish": "Chilli cheese fries"
+   }, 
+   {
+    "dish": "Green Bean Casserole Recipe"
+   }, 
+   {
+    "dish": "Yorkshire Puddings"
+   }, 
+   {
+    "dish": "Mayu (Black Garlic Oil)"
+   }, 
+   {
+    "dish": "Pesto"
+   }, 
+   {
+    "dish": "Chilli crisp oil"
+   }, 
+   {
+    "dish": "Tahini dressing"
+   }, 
+   {
+    "dish": "Coconut Tres Leches Cake"
+   }]
  }

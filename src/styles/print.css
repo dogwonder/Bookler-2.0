@@ -1,36 +1,21 @@
 /* Based on the Sample style sheet for boom!, the book microformat by Hakon Wium Lie and Bert Bos, November 2005 */
 /* You may reuse this style sheet for any purpose without any fees */
 
-html { 
+html {
   margin: 0;
-  font: 10pt/1.26 "Garamond", Baskerville, Palatino, Minion Pro, Hoefler Text, Cochin, Times New Roman, serif;
+  font-variant: regular;
+  line-height: 107%;
+  font-weight: lighter;
 }
 
-body { 
-  margin: 0 7%;
+body {
+  margin: 0 3.5%;
+  font: 10pt/1.26 Palatino, Baskerville, "Hoefler Text", Minion Pro, Garamond, Cochin, Times New Roman, serif;
 }
-
-h1, h2, h3, h4, h5, h6 { 
-  font-family: "Garamond", Baskerville, Palatino, Minion Pro, Hoefler Text, Cochin, Times New Roman, serif;
-  margin: 2em 0 0.5em 0;
-  page-break-after: avoid;
-} 
-
-h1 { padding: 2em 0 1.5em 0;margin: 0;font-size: 2em; line-height:1.1em;font-weight: 900;}
-h2 { font-size: 1.2em;font-weight: bold;}
-h3 { font-size: 1em;font-weight: bold;}  
-span.caps {font-variant: small-caps;}
-q::before {content: "\201C";}
-q::after {content: "\201D";}
-p { margin: 0 }
-p + p { text-indent: 1.3em }
-p.sidenote + p, p.caption, p.art { text-indent: 0 } 
-br {margin:0 0 1em 0;display:block;}
-pre {  margin: 1em 1.3em; }
-a { text-decoration: none; color: black }  
 
 @page {
-  margin: 27mm 16mm 27mm 16mm;
+  padding:0;
+  margin: 16mm;
   size: 6in 9in;
 
   @footnotes {
@@ -39,127 +24,213 @@ a { text-decoration: none; color: black }
     margin-top: 0.6em;
     margin-left: 7%;
   }
+
 }
 
 /* define default page and names pages: cover, blank, frontmatter */
 @page :left {
   @top-left {
-    font: 8pt "Garamond", Baskerville, Palatino, Minion Pro, Hoefler Text, Cochin, Times New Roman, serif; ;
-    content: "Vegan Recipes 2019";
-	  font-style:italic;
+    font: 8pt Palatino, Baskerville, "Hoefler Text", Minion Pro, Garamond, Cochin, Times New Roman, serif;
+    content: string(header, first);
+    font-style:italic;
     vertical-align: bottom;
     padding-bottom: 2em;
   }
 
   @bottom-left {
-    font: 8pt "Garamond", Baskerville, Palatino, Minion Pro, Hoefler Text, Cochin, Times New Roman, serif; ;
+    font: 8pt Palatino, Baskerville, "Hoefler Text", Minion Pro, Garamond, Cochin, Times New Roman, serif;
     content: counter(page);
-    padding-top: 2em;
+    padding-bottom: 1.5em;
     vertical-align: top;
   }
 }
 
 @page :right {
   @top-right {
-    font: 8pt "Garamond", Baskerville, Palatino, Minion Pro, Hoefler Text, Cochin, Times New Roman, serif; ;    
-	  font-style:italic;
+    font: 8pt Palatino, Baskerville, "Hoefler Text", Minion Pro, Garamond, Cochin, Times New Roman, serif;
+    font-style:italic;
     content: string(header, first); 
-    vertical-align: bottom;
-    padding-bottom: 2em; 
-  }
-
-  @bottom-right {
-    font: 8pt "Garamond", Baskerville, Palatino, Minion Pro, Hoefler Text, Cochin, Times New Roman, serif; ;
-    content: counter(page);
-    text-align: right;
-    vertical-align: top;
-    padding-top: 2em;
-  }
-}
-
-@page frontmatter :left {
-  @top-left {
-    font: 8pt "Garamond", Baskerville, Palatino, Minion Pro, Hoefler Text, Cochin, Times New Roman, serif; ; 
-	  font-style:italic;  
-    content: string(title);
     vertical-align: bottom;
     padding-bottom: 2em;
   }
 
-  @bottom-left {
-    font: 8pt "Garamond", Baskerville, Palatino, Minion Pro, Hoefler Text, Cochin, Times New Roman, serif; ;
-    content: counter(page, lower-roman);
-    padding-top: 2em;
+  @bottom-right {
+    font: 8pt Palatino, Baskerville, "Hoefler Text", Minion Pro, Garamond, Cochin, Times New Roman, serif;
+    content: counter(page);
+    text-align: right;
     vertical-align: top;
+    padding-bottom: 1.5em;
   }
+}
+
+@page blank :left {
+  @top-left { content: normal; }
+  @bottom-left { content: normal; }
+}
+
+@page blank :right {
+  @top-right { content: normal; }
+  @bottom-right { content: normal; }
+}
+
+@page nohead :left {
+  @top-left { content: ' '; }
+}
+
+@page nohead :right {
+  @top-right { content: ' '; }
 }
 
 @page cover { margin: 0; }
 @page backcover { margin: 0; }  
 
-@page frontmatter :right {
-  @top-right {
-    font: 8pt "Garamond", Baskerville, Palatino, Minion Pro, Hoefler Text, Cochin, Times New Roman, serif; ; 
-    font-style:italic;  
-    content: string(header, first); 
-    vertical-align: bottom;
-    padding-bottom: 2em; 
-  }
-
-  @bottom-right {
-    font: 8pt "Garamond", Baskerville, Palatino, Minion Pro, Hoefler Text, Cochin, Times New Roman, serif; ; 
-	  font-style:italic;  
-    content: counter(page, lower-roman);
-    text-align: right;
-    vertical-align: top;
-    padding-top: 2em;
-  }
+h1, h2, h3, h4, h5, h6 {
+  font-family: Palatino, Baskerville, "Hoefler Text", Minion Pro, Garamond, Cochin, Times New Roman, serif;
+  margin: 1em 0 1em 0;
+  page-break-after: avoid;
+  font-weight: lightest;
+  clear: both;
 }
 
-@page blank :left {
-  @top-left { content: normal }
-  @bottom-left { content: normal }
+h1, h2 {
+  font-size: 22pt;
+  margin:2em 0;
+  font-weight: bold;
+  text-align:center;
 }
 
-@page blank :right {
-  @top-right { content: normal }
-  @bottom-right { content: normal }
-} 
-
-/*imprint*/
-.imprint p.commons {font-weight:bold;}
-.imprint ul.license-properties {margin:1em 0 0 0;padding:0;}	
-.imprint ul.license-properties ul {margin:0.5em 0;}
-.imprint ul.license-properties li {
-	list-style-type:none;
-	font-size:9pt;  
-	margin:0 0 0.5em 0;
+span.caps {
+  font-variant: small-caps;
 }
 
-/* footnotes */
-.footnote {
-  display: none; /* default rule */
+sup {font-size:1em;}
 
-  display: prince-footnote; /* prince-specific rules */
-  position: footnote;
-  footnote-style-position: inside;
-
-  counter-increment: footnote;
-  margin-left: 1.4em;
-  font-size: 90%;
-  line-height: 1.4;
+blockquote, q {
+  margin:1em;
+  font-size:10pt;
+  line-height:15pt;
+  font-style:italic;
 }
 
-.footnote::footnote-call {
-  vertical-align: super;
-  font-size: 80%;
+blockquote:before, q:before {
+  content: "\201C";
+  font-size:14pt;
 }
 
-.footnote::footnote-marker {
-  vertical-align: super;
-  color: green;
-  padding-right: 0.4em;
+blockquote:after, q:after {
+  content: "\201D";
+  font-size:14pt;
 }
+
+
+p + p { text-indent: 1.3em }
+p.sidenote + p, p.caption, p.art { text-indent: 0 }
+
+a { text-decoration: none; color: black }
+
+/*images*/
+img {
+  display:block;
+  max-width:4in;
+  clear:both;
+  margin:0.5in auto;
+}
+
+/* TOC */
+#toc {
+  margin:0 auto;
+  padding:1in 0 0 0;
+  list-style-type: none;
+  font-size: 100%;
+  page-break-before: always;
+  page: blank;
+  width:80%;
+}
+
+#toc ul {
+  counter-reset: list-item;
+  margin:0;
+  padding:0;
+}
+
+#toc li {
+  margin: 12px 5px;
+  clear: right;
+  font: 12pt/1.26;
+  font-weight: normal;
+  page-break-after: avoid;
+  list-style-type: none;
+  counter-increment: list-item;
+}
+
+#toc a {margin:0;}
+
+#toc a::before {
+  content: "Recipe " counters(list-item, ".", decimal) " - ";
+  counter-increment: toc-chapter;
+  page-break-after: avoid;
+  font-style: italic;
+  font-weight: bold;
+  color: #666;
+}
+
+#toc a::after { content: leader(".") target-counter(attr(href, url), page); }
+
+/*hyphenation and justification rules*/
+.titlepage {
+  padding:2.5in 0 0 0;
+}
+
+.titlepage p,
+.introduction p,
+.chapter p {
+  hyphens: auto;
+  prince-hyphenate-after: 4;
+  text-align:justify;
+}
+
+/* Chapters */
+.chapter { page-break-before: always; }
+.chapter { counter-increment: chapter-num; }
+.chapter h1 { string-set: header "Recipe " counter(chapter-num) ": " content(); }
+.chapter ul {margin:1em 2em;}
+.chapter ol {margin:1em 2em;}
+.chapter li {font-size:1em;list-style-type: disc;}
+.chapter ol li {list-style-type: decimal;}
+
+
+.chapter h1 {
+  font-size:3em;
+  font-size:bold;
+  margin:1em 0;
+}
+
+.chapter h2,
+.chapter h3,
+.chapter h4,
+.chapter h5,
+.chapter h6 {
+  font-size:1em;
+  font-size:bold;
+  margin:1em 0;
+}
+
+/*Frontcover*/
+.frontcover { 
+  page: cover; 
+}
+.frontcover h1 {padding-top:1in;}
+.frontcover h1, 
+.frontcover h2 {
+  margin:0;
+}
+
+
+
+.frontcover img {
+  
+}
+
 
 /*
    A book consists of different types of sections. We propose to use
@@ -175,7 +246,7 @@ a { text-decoration: none; color: black }
     preface: preface, including acknowledgements
     chapter: each chapter is given its own DIV element
     references: contains list of references
-    appendix: each appendix is given its own 
+    appendix: each appendix is given its own
     bibliography
     glossary
     index
@@ -186,6 +257,7 @@ a { text-decoration: none; color: black }
    will use all of them.
 */
 
+/* which section uses which named page */
 /* which section uses which named page */
 div.halftitlepage, div.titlepage, div.imprint, div.dedication, div.blank { page: blank }
 div.foreword, div#toc, div.preface { page: frontmatter }
@@ -199,124 +271,3 @@ div.appendix, div.bibliography, div.glossary, div.index, div.colophon {
 }
 div.backcover { page-break-before: left }
 
-/* the front cover; this code is probably not very reusable by other books */
-div.frontcover { page: cover; }
-
-div.frontcover img {
-  position: absolute;
-  width: 6in; height: 9in; 
-  left: 0; top: 0;
-  z-index: -1;
-}
-
-div.frontcover h1 {
-  position: absolute;
-  left: 2cm; top: 1cm;
-  color: white;
-  font-size: 38pt;
-  font-weight: normal;
-}
-
-div.frontcover h2 {
-  position: absolute;
-  left: 2cm; top: 5cm;
-  color: white;
-  font-size: 16pt;
-  font-weight: normal;
-  padding: 0;
-  letter-spacing: 0.15em;
-}
-
-div.frontcover h3 {
-  position: absolute;
-  left: 2cm; top: 7cm;
-  color: white;
-  font-size: 24pt;
-  font-weight: normal;
-}
-
-div.frontcover p {
-  position: absolute;
-  left: 2cm; bottom: 1.5cm;
-  font-size: 24pt;
-  color: black;
-  font-weight: bold;
-  text-transform: uppercase;
-}   
-
-
-div.backcover {page: backcover;}    
-div.backcover img {
-  position: absolute;
-  width: 6in; height: 9in; 
-  left: 0; top: 0;
-  z-index: -1;
-}
-
-
-/* titlepage, halftitlepage */
-
-div.titlepage h1, div.halftitlepage h1 { margin-bottom: 2em; }
-div.titlepage h2, div.halftitlepage h2 { font-size: 1.2em; margin-bottom: 3em; }
-div.titlepage h3, div.halftitlepage h3 { font-size: 1em; margin-bottom: 3em; }
-div.titlepage p, div.halftitlepage p { 
-  font-size: 1.4em;
-  font-weight: bold;
-  margin: 0; padding: 0;
-}
-
-
-/* TOC */ 
-#toc ol { 
-  list-style-type: none;  
-  margin: 0 0 0 1em; 
-  padding: 0;
-  font-weight: normal;     
-}
-.bodymatter { font-weight: bold;margin-bottom: 0;counter-increment: toc-chapter;}    
-.bodymatter a::after { content: leader('.') target-counter(attr(href, url), page, decimal) }
-
-
-.bodymatter::before {
-  content: "Recipe " counter(toc-chapter, decimal);
-  display: block;
-  margin: 1.5em 0 0.1em 0cm;
-  font-weight: normal;
-  page-break-after: avoid;   
-  font-size: 1.2em;
-}
-
-/* chapter numbers */
-div.chapter { counter-increment: chapter; }  
-            
-/*images*/
-div.chapter img {display:block;max-width:4in;clear:both;margin:0.5in auto;}
-
-h1::before {
-  white-space: pre;
-  margin-left: 0;
-  font-size: 50%;
-  content: " \A";  /* ornaments */
-}
-
-div.chapter h1::before { content: "Recipe " counter(chapter) " \A"; }
-
-div.frontcover h1::before, div.titlepage h1::before, div.halftitlepage h1::before {
-  content: normal;   /* that is, none */
-}
-
-h1 { string-set: header content(); }
-div.chapter h1 { string-set: header "Recipe " counter(chapter) ": " content(); }
-
-.chapter { page-break-before: always }
-
-/* index */
-ul.index { 
-  list-style-type: none;
-  margin: 0; padding: 0;
-  column-count: 2;
-  column-gap: 1em;
-}
-
-ul.index a::after { content: ", " target-counter(attr(href), page); }
-ul.index li a {font-size:1em;}                                

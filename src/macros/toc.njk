@@ -1,3 +1,3 @@
-{% macro toc(heading) %}
-<li class="bodymatter"><a href="#chap_{{ heading | lower |  replace(" ", "_") }}">{{ heading }}</a></li>
+{% macro toc(tocID, heading) %}
+<li class="bodymatter"><a href="#{{ tocID }}">{{ heading }}</a></li>
 {% endmacro %}
