@@ -193,7 +193,7 @@ img {
 /* Chapters */
 .chapter { page-break-before: always; }
 .chapter { counter-increment: chapter-num; }
-.chapter h1 { string-set: header "Recipe " counter(chapter-num) ": " content(); }
+.chapter h1 {string-set: header "Recipe " counter(chapter-num) ": " content();}
 .chapter ul {margin:1em 2em;}
 .chapter ol {margin:1em 2em;}
 .chapter li {font-size:1em;list-style-type: disc;}
@@ -201,7 +201,7 @@ img {
 
 
 .chapter h1 {
-  font-size:3em;
+  font-size:22pt;
   font-size:bold;
   margin:1em 0;
 }
