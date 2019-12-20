@@ -13,3 +13,4 @@ Based on [Bookler](https://github.com/felixcohen/Bookler)
 
 [Prince XML](https://www.princexml.com/) can be used for non commercial purposes. If you wish to use this commerically [check out their website](https://www.princexml.com/purchase/).
 
+[Example file](example/book.pdf)
