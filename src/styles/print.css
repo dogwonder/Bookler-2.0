@@ -216,19 +216,26 @@ img {
 }
 
 /*Frontcover*/
-.frontcover { 
-  page: cover; 
-}
+.frontcover { page: cover; margin: 0; }
 .frontcover h1 {padding-top:1in;}
 .frontcover h1, 
 .frontcover h2 {
   margin:0;
+  z-index:2;
+  position: relative;
+  color:white;
 }
 
-
-
-.frontcover img {
-  
+.frontcover::before {
+  content:"";
+  width:100%;
+  height:100%;
+  background-image: url('frontcover.jpg');
+  background-size: cover;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index:1;
 }
 
 
@@ -259,15 +266,17 @@ img {
 
 /* which section uses which named page */
 /* which section uses which named page */
-div.halftitlepage, div.titlepage, div.imprint, div.dedication, div.blank { page: blank }
-div.foreword, div#toc, div.preface { page: frontmatter }
+.halftitlepage, .titlepage, .imprint, .dedication, .blank { page: blank }
+.foreword, #toc, .preface { page: frontmatter }
 
 /* page breaks */
-div.frontcover, div.halftitlepage, div.titlepage, div.backcover { page-break-before: right }
-div.blank { page-break-before: always }
-div.dedication, div.foreword, div.preface, div.chapter, div.reference, 
-div.appendix, div.bibliography, div.glossary, div.index, div.colophon { 
+.frontcover, .halftitlepage, .titlepage, .backcover { page-break-before: right }
+.blank { page-break-before: always }
+
+.dedication, .foreword, .preface, .chapter, .reference, 
+.appendix, .bibliography, .glossary, .index, .colophon { 
   page-break-before: always 
 }
-div.backcover { page-break-before: left }
+
+.backcover { page-break-before: left }
 
