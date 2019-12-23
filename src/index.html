@@ -14,15 +14,15 @@
 <nav id="toc">
     <ol>
         <h2>Contents</h2>
-        {% for recipe in recipes %}
-        {{ toc(loop.index, recipe.dish) }} 
+        {% for item in chapters %}
+        {{ toc(loop.index, item.title) }} 
         {% endfor %}
     </ol>
 </nav>
 
 <div class="container">
-    {% for recipe in recipes %}
-    {{ chapter(loop.index, recipe.dish, 'markdown/' + recipe.dish + '.md') }}
+    {% for item in chapters %}
+    {{ chapter(loop.index, item.title, 'markdown/' + item.title + '.md') }}
     {% endfor %}
 </div>
 

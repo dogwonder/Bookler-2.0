@@ -2,52 +2,52 @@
    "siteTitle": "Vegan Recipes 2019", 
    "siteDesc": "A PDF book", 
    "frontCover": "frontcover.jpg",
-   "recipes": [{
-    "dish": "Stew"
+   "chapters": [{
+    "title": "Stew"
    }, 
    {
-    "dish": "Bibimbap"
+    "title": "Bibimbap"
    }, 
    {
-    "dish": "Curry sauce"
+    "title": "Curry sauce"
    }, 
    {
-    "dish": "Ramen"
+    "title": "Ramen"
    }, 
    {
-    "dish": "Aglio olio e peperoncino"
+    "title": "Aglio olio e peperoncino"
    }, 
    {
-    "dish": "Puttanesca"
+    "title": "Puttanesca"
    }, 
    {
-    "dish": "Pizza"
+    "title": "Pizza"
    }, 
    {
-    "dish": "Chilli cheese fries"
+    "title": "Chilli cheese fries"
    }, 
    {
-    "dish": "Green Bean Casserole Recipe"
+    "title": "Green Bean Casserole Recipe"
    }, 
    {
-    "dish": "Yorkshire Puddings"
+    "title": "Yorkshire Puddings"
    }, 
    {
-    "dish": "Mayu (Black Garlic Oil)"
+    "title": "Mayu (Black Garlic Oil)"
    }, 
    {
-    "dish": "Pesto"
+    "title": "Pesto"
    }, 
    {
-    "dish": "Chilli crisp oil"
+    "title": "Chilli crisp oil"
    }, 
    {
-    "dish": "Tahini dressing"
+    "title": "Tahini dressing"
    }, 
    {
-    "dish": "Chocolate Depression era Cake"
+    "title": "Chocolate Depression era Cake"
    },
    {
-    "dish": "Coconut Tres Leches Cake"
+    "title": "Coconut Tres Leches Cake"
    }]
  }
