@@ -8,14 +8,14 @@
 
 _Fry for 20 minutes_
 
-* 1 level tablespoon of ground coriander
-* 2 level teaspoons of turmeric 
-* 1 heaped teaspoon of paprika 
-* 1 heaped teaspoon of garam masala
+* 1 level tbsp of ground coriander
+* 2 level tsp of turmeric 
+* 1 heaped tsp of paprika 
+* 1 heaped tsp of garam masala
 
 _Cook for 2 minutes_
 
-* 6 tablespoons of ground almonds.
+* 6 tbsp of ground almonds.
 
 _Cook for 1 minute_
 

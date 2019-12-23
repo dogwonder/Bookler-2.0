@@ -1,20 +1,20 @@
 ### Ingredients
 
 #### for the stew
-* 1 TB olive oil
+* 1 tbsp olive oil
 * 12 oz. seitan, sliced 
 * 16 oz. brown mushrooms, quartered
 * 1 tsp salt, divided
 * 1 tsp pepper, divided
 * 1 cup sliced shallots
 * ½ head garlic, minced
-* 1 TB AP flour
+* 1 tbsp AP flour
 * one bottle of Cabernet Sauvignon
 * 2 bay leaves
 * a few sprigs of thyme
 
 #### for the vegetables
-* 2 TB refined coconut oil
+* 2 tbsp refined coconut oil
 * one package of Vegan Bacon, chopped
 * 1 tsp liquid smoke
 * 1 ½ cup carrots, chopped

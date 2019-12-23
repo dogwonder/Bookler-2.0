@@ -5,11 +5,11 @@
 * 1 7 ounce can sweetened condensed coconut milk
 * 2 heaping cups (285 grams) all-purpose flour
 * 1 cup (200 grams) granulated sugar
-* 1 ½ teaspoons baking soda
-* ½ teaspoon table salt
+* 1 ½ tsp baking soda
+* ½ tsp table salt
 * ½ cup neutral cooking oil, melted coconut oil, or a mix
-* 1 tablespoon white or apple cider vinegar
-* 1 tablespoon vanilla extract
+* 1 tbsp white or apple cider vinegar
+* 1 tbsp vanilla extract
 * Prepared coconut whipped cream or frozen whipped topping, to serve
 
 ### Method

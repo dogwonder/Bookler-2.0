@@ -3,10 +3,10 @@
 #### For the dough
 
 * 375g (13 oz) AA plain flour
-* 1 teaspoon salt
-* 1 tablespoon caster sugar
+* 1 tsp salt
+* 1 tbsp caster sugar
 * 7g (¼ oz) dried active baking yeast
-* 2 tablespoons olive oil
+* 2 tbsp olive oil
 * 225ml (8 fl oz) warm water (45 C)
 
 #### Base

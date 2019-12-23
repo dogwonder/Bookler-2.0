@@ -4,14 +4,14 @@
 * 25g (3⁄4 cup) dried Kashmiri red chilies, stems removed (see note)
 * ½ cup (50g) roasted, salted peanuts, chopped
 * 2-inch piece (30g) fresh ginger, sliced into thin matchsticks
-* 3⁄4 teaspoon (2g) freshly ground black pepper
+* 3⁄4 tsp (2g) freshly ground black pepper
 * 3 pieces whole star anise
 * 2 red or black cardamom pods, split in half
-* 2 teaspoons (6g) freshly ground cumin
-* 3 tablespoons (28g) freshly ground Sichuan peppercorn
-* 3 tablespoons (12g) porcini or shiitake mushroom powder
-* 5 teaspoons (30g) Diamond Crystal kosher salt; for table salt, use about half as much by volume or the same by weight
-* 2 tablespoons (20g) sugar
+* 2 tsp (6g) freshly ground cumin
+* 3 tbsp (28g) freshly ground Sichuan peppercorn
+* 3 tbsp (12g) porcini or shiitake mushroom powder
+* 5 tsp (30g) kosher salt; for table salt, use about half as much by volume or the same by weight
+* 2 tbsp (20g) sugar
 * 2 ½ cups (500g) peanut oil, or any other neutral oil
 * 2 cups (200g) thinly sliced shallots (about 1mm thick)
 * 3⁄4 cup (65g) thinly sliced garlic (about 1mm thick)

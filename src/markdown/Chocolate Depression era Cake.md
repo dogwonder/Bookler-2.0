@@ -3,10 +3,10 @@
 * 1 ½ cups all-purpose flour
 * 1 cup sugar
 * ¼ cup unsweetened cocoa powder
-* ½ teaspoon salt
-* 1 teaspoon baking soda
-* 1 teaspoon vanilla extract
-* 1 teaspoon white vinegar
+* ½ tsp salt
+* 1 tsp baking soda
+* 1 tsp vanilla extract
+* 1 tsp white vinegar
 * ⅓ cup vegetable oil
 * 1 cup water
 
@@ -16,7 +16,7 @@
 * ¼ cup unsweetened cocoa powder
 * 1 cup powdered sugar
 * 1 Tablespoon oat milk (or cream)
-* ¼ teaspoon vanilla extract
+* ¼ tsp vanilla extract
 
 ### Method
 

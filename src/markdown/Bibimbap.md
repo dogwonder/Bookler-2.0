@@ -2,10 +2,10 @@
 
 * Sushi rice (white - one serving per person)
 * Spinach
-* Onion
-* Ribboned carrot
+* Onion (Sliced)
+* carrot (Ribboned)
 * Bean sprouts
-* Tofu (firm) baked - (oven bake in strips for 30 -40 minutes with a little oil)
+* Tofu (firm) baked - (oven bake in strips for 30-40 minutes with a little oil)
 * Shiitake mushrooms (once cooked flash fry in Soy Sauce)
 
 To garnish 

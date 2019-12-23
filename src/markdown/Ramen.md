@@ -4,10 +4,10 @@
 * 4-6 cloves of garlic - chopped
 * 2 cloves of garlic minced garlic
 * 1 (4-inch) knob ginger, finely sliced
-* 1 tablespoon sesame oil
+* 1 tbsp sesame oil
 * Vegetable stock
 * ¼ cup white or yellow miso paste
-* 3 tablespoons tahini
+* 3 tbsp tahini
 * Soy sauce
 * Mirin
 * Tofu (firm) baked - (oven bake in 2cm cubes for 30 -40 minutes with a little oil)

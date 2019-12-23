@@ -1,13 +1,13 @@
 ### Ingredients
 
 * ¼ cup tahini
-* 2 tablespoons fresh lemon juice
-* 1 tablespoon grape seed, canola, or some other neutral oil
-* 1 tablespoon soy sauce
-* 1 tablespoon water
+* 2 tbsp fresh lemon juice
+* 1 tbsp grape seed, canola, or some other neutral oil
+* 1 tbsp soy sauce
+* 1 tbsp water
 * 1 clove of garlic, crushed
-* 1 teaspoon maple syrup
-* 1 teaspoon minced onion
+* 1 tsp maple syrup
+* 1 tsp minced onion
 
 ### Method
 

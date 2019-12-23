@@ -3,11 +3,11 @@
 * Onion (2 chopped)
 * Garlic (2 cloves minced)
 * Celery (bunch)
-* Paprika 1tbsp
+* Paprika (1tbsp)
 * Carrots (bunch) chopped 
 * New potatoes (10/15) chopped
 * Stout (Guinness) ⅔ can 
-* Tomato puree 2 tbsp
+* Tomato puree (2 tbsp)
 * Frozen peas (handful)
 * 4 Tofu wieners (sliced)
 * Fresh parsley (chopped)
