@@ -1,10 +1,10 @@
 ### Ingredients
 * 27g (1 cup) dried árbol chilies, stems removed (see note)
-* 20g (3/4 cup) dried chiles japones, stems removed (see note)
-* 25g (3/4 cup) dried Kashmiri red chilies, stems removed (see note)
-* 1/2 cup (50g) roasted, salted peanuts, chopped
+* 20g (3⁄4 cup) dried chiles japones, stems removed (see note)
+* 25g (3⁄4 cup) dried Kashmiri red chilies, stems removed (see note)
+* ½ cup (50g) roasted, salted peanuts, chopped
 * 2-inch piece (30g) fresh ginger, sliced into thin matchsticks
-* 3/4 teaspoon (2g) freshly ground black pepper
+* 3⁄4 teaspoon (2g) freshly ground black pepper
 * 3 pieces whole star anise
 * 2 red or black cardamom pods, split in half
 * 2 teaspoons (6g) freshly ground cumin
@@ -12,9 +12,9 @@
 * 3 tablespoons (12g) porcini or shiitake mushroom powder
 * 5 teaspoons (30g) Diamond Crystal kosher salt; for table salt, use about half as much by volume or the same by weight
 * 2 tablespoons (20g) sugar
-* 2 1/2 cups (500g) peanut oil, or any other neutral oil
+* 2 ½ cups (500g) peanut oil, or any other neutral oil
 * 2 cups (200g) thinly sliced shallots (about 1mm thick)
-* 3/4 cup (65g) thinly sliced garlic (about 1mm thick)
+* 3⁄4 cup (65g) thinly sliced garlic (about 1mm thick)
 
 ### Method
 
@@ -24,5 +24,3 @@
 4. Set a fine-mesh strainer over a 2-quart heatproof bowl. In a 4-quart saucepan, combine oil and shallots. Cook over high heat while constantly stirring. Once shallots become light golden brown, strain. Pour oil back into pot and add garlic. Cook over medium-low heat, constantly stirring, until light golden brown, then strain. Return oil to pot once more. Set aside fried shallots and garlic.
 5. Heat oil to 375°F (190°C). Pour hot oil over chilies, spices, and other seasonings. Stir well to distribute hot oil throughout. Set aside to fully cool, about 30 minutes or until bowl or pot is cool to the touch.
 6. Once chilli-and-oil mixture has fully cooled, remove star anise and cardamom pods. Mix in fried shallots and garlic. Pour finished chilli crisp into jars and store in the fridge for about 3 months. It can be served immediately, but for best flavour, eat it the next day. Stir well before serving.
-
-

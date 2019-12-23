@@ -13,7 +13,6 @@ _Fry for 20 minutes_
 * 1 heaped teaspoon of paprika 
 * 1 heaped teaspoon of garam masala
 
-
 _Cook for 2 minutes_
 
 * 6 tablespoons of ground almonds.
@@ -29,5 +28,3 @@ _Cook for 5 minutes_
 * 2 x 400g tin of light coconut milk
 
 _Cook for 40 minutes_
-
-

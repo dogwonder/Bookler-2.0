@@ -14,4 +14,3 @@
 5. Once all the oil is in, you can let the garlic begin to take on a little bit of colour and put in your chopped chilli. Let it cook very briefly, stirring it into the garlic, then pull the pan from the heat and stir in a couple of spoonfuls of the cooking water from the pasta – take care, as it may spit.
 6. When the pasta is cooked but still al dente, lift it out and drain it, but keep back the cooking water.
 7. Toss the pasta really well through the oil, garlic and chilli, adding a little more cooking water from the pasta if it is too dry, as you want the garlicky hot oil to really cling to the spaghetti, and serve straight away. If you like, you can toss through a tablespoon of chopped fresh parsley and finish with some grated parmesan or pecorino.
-

@@ -21,5 +21,3 @@
 4. When the pasta is cooked to your liking, reserve 3 tablespoons of the cooking water in a bowl, then drain the pasta in a colander and return it to the saucepan.
 5. Add half of the sauce to the cooked spaghetti, then stir in the reserved cooking water. Continue to stir the mixture carefully until the spaghetti is coated in the sauce. Season, to taste, with freshly ground black pepper.
 6. To serve, transfer the spaghetti and sauce to a warmed serving dish, then pour over the remaining sauce. Drizzle over the remaining tablespoon of oil and garnish with the parsley, if using. Serve immediately.
-
-

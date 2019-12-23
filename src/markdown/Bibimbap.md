@@ -18,9 +18,4 @@ To garnish
 
 1. Boil the rice separately. 
 2. Stir fry each ingredient separately and set aside (kept warm). 
-3. Serve in bowl arranged as below. Then mix ingredients all together before eating. 
-
-![](Bibimbap/Pasted%20Graphic.jpg)
-
-
-
+3. Serve in bowl arranged seperately. Stir the ingredients together thoroughly just before eating.

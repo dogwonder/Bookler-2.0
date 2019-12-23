@@ -6,7 +6,7 @@
 * Paprika 1tbsp
 * Carrots (bunch) chopped 
 * New potatoes (10/15) chopped
-* Stout (Guinness) 2/3 can 
+* Stout (Guinness) ⅔ can 
 * Tomato puree 2 tbsp
 * Frozen peas (handful)
 * 4 Tofu wieners (sliced)
@@ -19,4 +19,3 @@
 3. Take a couple of ladles of the stew and liquidise then add back to the stew to thicken the stew. 
 4. Sauté the sliced tofu wieners and add to the stew. Add peas and leave for 5 minutes to warm though. 
 5. Optional fresh chopped parsley to garnish. 
-

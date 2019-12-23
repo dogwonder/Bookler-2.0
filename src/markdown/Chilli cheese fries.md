@@ -4,23 +4,23 @@
 
 * 1 box of Right Foods French Lentil soup
 * 1 bell pepper [120g]
-* 1/4 onion [20g]
-* 1/2 cup kidney beans [125g]
-* 1/3 cup tomato sauce [90g]
-* 1/2 tsp taco seasoning
-* 1/2 tsp chill powder
+* ¼ onion [20g]
+* ½ cup kidney beans [125g]
+* ⅓ cup tomato sauce [90g]
+* ½ tsp taco seasoning
+* ½ tsp chill powder
 * Pinch of red pepper flakes
-* 1/4 tsp cumin
+* ¼ tsp cumin
 * Salt to taste
 
 #### For the ‘Cheese’ Sauce
 
 * 1 cup potatoes, chopped
 * 1 carrot, chopped
-* 1/4 cup cashews
+* ¼ cup cashews
 * 1 tbsp nutritional yeast [5g]
-* 1/4 salt (or to taste)
-* 1/2 cup non-dairy milk [120g]
+* ¼ salt (or to taste)
+* ½ cup non-dairy milk [120g]
 
 6 oz fries
 
@@ -33,5 +33,3 @@
 5. Then drain and add them into a blender with the nutritional yeast, salt and non-dairy milk. Blend until smooth.
 6. Once the fries are done cooking place them on a plate. Top with the chilli and cheese sauce.
 7. Garnish with green onion, red onion and jalapeño.
-
-

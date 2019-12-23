@@ -1,23 +1,22 @@
 ### Ingredients
 
-* 1 1/2 cups all-purpose flour
+* 1 ½ cups all-purpose flour
 * 1 cup sugar
-* 1/4 cup unsweetened cocoa powder
-* 1/2 teaspoon salt
+* ¼ cup unsweetened cocoa powder
+* ½ teaspoon salt
 * 1 teaspoon baking soda
 * 1 teaspoon vanilla extract
 * 1 teaspoon white vinegar
-* 1/3 cup vegetable oil
+* ⅓ cup vegetable oil
 * 1 cup water
 
 #### for the Frosting
 
 * 2 Tablespoons butter
-* 1/4 cup unsweetened cocoa powder
+* ¼ cup unsweetened cocoa powder
 * 1 cup powdered sugar
 * 1 Tablespoon oat milk (or cream)
-* 1/4 teaspoon vanilla extract
-
+* ¼ teaspoon vanilla extract
 
 ### Method
 
@@ -27,7 +26,7 @@
 4. Bake in a preheated 350 degree oven for 30-35 minutes, until toothpick inserted in center comes out clean.
 5. Let cake cool completely before frosting.
 
-#### FOR THE FROSTING
+#### For the Frosting
 
 1. Melt butter in a small saucepan (or in the microwave using a microwave safe dish.) Stir in cocoa powder, mixture will form a thick paste.
 2. Transfer chocolate mixture to a medium size mixing bowl. With mixer on low speed, add in powdered sugar, milk and vanilla.

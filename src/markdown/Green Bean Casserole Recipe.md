@@ -1,15 +1,15 @@
 ### Ingredients
 
 * Kosher salt
-* 1 1/2 pounds (680g) green beans, trimmed and cut into 2-inch lengths
+* 1 ½ pounds (680g) green beans, trimmed and cut into 2-inch lengths
 * 1 medium yellow onion, roughly chopped
-* 1/2 pound (225g) button or cremini mushrooms, stems trimmed
+* ½ pound (225g) button or cremini mushrooms, stems trimmed
 * 3 cups (710ml) vegetable stock or low-sodium broth, plus more as needed
-* One (2-pound; 900g) head cauliflower, cored and cut into medium florets (1 1/2 pounds or 680g after prep)
+* One (2-pound; 900g) head cauliflower, cored and cut into medium florets (1 ½ pounds or 680g after prep)
 * 3 tablespoons (45ml) extra-virgin olive oil
 * 1 tablespoon nutritional yeast
 * 1 teaspoon garlic powder
-* 1 teaspoon fresh thyme leaves or 1/2 teaspoon dried thyme
+* 1 teaspoon fresh thyme leaves or ½ teaspoon dried thyme
 * Finely grated zest of 1 lemon (optional)
 * Freshly ground black pepper
 * Canola oil or other neutral oil, for frying
@@ -24,6 +24,5 @@
 5. Preheat the oven to 350°F (180°C). Rinse out the saucepan again, then dry well. Add olive oil and heat over medium heat until shimmering. Add mushrooms and onions and season generously with salt. Cook, stirring frequently, until mushrooms and onions stop releasing water and are tender, about 10 minutes.
 6. Add the cauliflower sauce, nutritional yeast, garlic powder, thyme, and lemon zest (if using) and season with salt and pepper. (Don’t be shy with the salt and pepper!) Stir in the green beans. If the sauce seems too thick, add more broth until you reach a consistency you like. Transfer the green beans and sauce to a 2-quart baking dish.
 7. Bake the casserole until hot and bubbling, 25 to 30 minutes.
-8. Meanwhile, in a medium saucepan, heat 1/2 inch canola oil until the oil is hot enough that it bubbles when you add a piece of red onion. Add half of the sliced red onion and fry, stirring occasionally, until golden brown, 9 to 10 minutes. Using tongs or a spider, transfer the onions to a paper towel–lined plate. Season generously with salt. Repeat with remaining red onions. When the onions are cool enough to touch, use your hands to fluff them a bit so they crisp up.
+8. Meanwhile, in a medium saucepan, heat ½ inch canola oil until the oil is hot enough that it bubbles when you add a piece of red onion. Add half of the sliced red onion and fry, stirring occasionally, until golden brown, 9 to 10 minutes. Using tongs or a spider, transfer the onions to a paper towel–lined plate. Season generously with salt. Repeat with remaining red onions. When the onions are cool enough to touch, use your hands to fluff them a bit so they crisp up.
 9. Let casserole cool for about 5 minutes, then top with the onions and serve.
-
