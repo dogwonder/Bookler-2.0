@@ -17,7 +17,7 @@ Based on [Bookler](https://github.com/felixcohen/Bookler)
 ### Data
 The chapters files are rendered in markdown and located in the src/markdown folder. And data/data.json is where we define the chapters and toc. The chapter title name needs to match the mardown filename exactly.
 
-The book title, subtitle and cover image are also defined in the data.json file.
+The book title and subtitle are also defined in the data.json file.
 
 ### PDF
 [Example file](example/book.pdf)

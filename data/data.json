@@ -1,7 +1,6 @@
 {  
-   "siteTitle": "Vegan Recipes", 
-   "siteDesc": "2019", 
-   "frontCover": "frontcover.jpg",
+   "siteTitle": "Bookler 2.0", 
+   "siteDesc": "An NPM Book", 
    "chapters": [{
     "title": "Stew"
    }, 
@@ -27,7 +26,7 @@
     "title": "Chilli cheese fries"
    }, 
    {
-    "title": "Green Bean Casserole Recipe"
+    "title": "Green Bean Casserole"
    }, 
    {
     "title": "Yorkshire Puddings"
