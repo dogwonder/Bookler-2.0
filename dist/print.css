@@ -10,7 +10,7 @@ html {
 
 body {
   margin: 0 3.5%;
-  font: 10pt/1.26 Palatino, Baskerville, "Hoefler Text", Minion Pro, Garamond, Cochin, Times New Roman, serif;
+  font: 10pt/1.26 Baskerville, Palatino, "Hoefler Text", Minion Pro, Garamond, Cochin, Times New Roman, serif;
 }
 
 @page {
@@ -30,7 +30,7 @@ body {
 /* define default page and names pages: cover, blank, frontmatter */
 @page :left {
   @top-left {
-    font: 8pt Palatino, Baskerville, "Hoefler Text", Minion Pro, Garamond, Cochin, Times New Roman, serif;
+    font: 8pt Baskerville, Palatino, "Hoefler Text", Minion Pro, Garamond, Cochin, Times New Roman, serif;
     content: string(header, first);
     font-style:italic;
     vertical-align: bottom;
@@ -38,7 +38,7 @@ body {
   }
 
   @bottom-left {
-    font: 8pt Palatino, Baskerville, "Hoefler Text", Minion Pro, Garamond, Cochin, Times New Roman, serif;
+    font: 8pt Baskerville, Palatino, "Hoefler Text", Minion Pro, Garamond, Cochin, Times New Roman, serif;
     content: counter(page);
     padding-bottom: 1.5em;
     vertical-align: top;
@@ -47,7 +47,7 @@ body {
 
 @page :right {
   @top-right {
-    font: 8pt Palatino, Baskerville, "Hoefler Text", Minion Pro, Garamond, Cochin, Times New Roman, serif;
+    font: 8pt Baskerville, Palatino, "Hoefler Text", Minion Pro, Garamond, Cochin, Times New Roman, serif;
     font-style:italic;
     content: string(header, first); 
     vertical-align: bottom;
@@ -55,7 +55,7 @@ body {
   }
 
   @bottom-right {
-    font: 8pt Palatino, Baskerville, "Hoefler Text", Minion Pro, Garamond, Cochin, Times New Roman, serif;
+    font: 8pt Baskerville, Palatino, "Hoefler Text", Minion Pro, Garamond, Cochin, Times New Roman, serif;
     content: counter(page);
     text-align: right;
     vertical-align: top;
@@ -85,7 +85,7 @@ body {
 @page backcover { margin: 0; }  
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Palatino, Baskerville, "Hoefler Text", Minion Pro, Garamond, Cochin, Times New Roman, serif;
+  font-family: Baskerville, Palatino, "Hoefler Text", Minion Pro, Garamond, Cochin, Times New Roman, serif;
   margin: 1em 0 1em 0;
   page-break-after: avoid;
   font-weight: lightest;
@@ -218,13 +218,21 @@ img {
 
 /*Frontcover*/
 .frontcover { page: cover; margin: 0; }
-.frontcover h1 {padding-top:1in;}
+.frontcover h1 {
+  padding-top:1in;
+  font-size:30pt;
+}
+.frontcover h2 {
+  font-size:22pt;
+}
 .frontcover h1, 
 .frontcover h2 {
+  font-family: 'Futura', Arial, Helvetica, sans-serif;
   margin:0;
   z-index:2;
   position: relative;
   color:white;
+  text-transform: uppercase;
 }
 
 .frontcover::before {
