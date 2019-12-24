@@ -1,7 +1,7 @@
 ### Ingredients
-* 27g (1 cup) dried árbol chilies, stems removed (see note)
-* 20g (3⁄4 cup) dried chiles japones, stems removed (see note)
-* 25g (3⁄4 cup) dried Kashmiri red chilies, stems removed (see note)
+* 27g (1 cup) dried árbol chilies, stems removed
+* 20g (3⁄4 cup) dried chiles japones, stems removed
+* 25g (3⁄4 cup) dried Kashmiri red chilies, stems removed
 * ½ cup (50g) roasted, salted peanuts, chopped
 * 2-inch piece (30g) fresh ginger, sliced into thin matchsticks
 * 3⁄4 tsp (2g) freshly ground black pepper

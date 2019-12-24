@@ -8,7 +8,7 @@
 * ½ cup kidney beans [125g]
 * ⅓ cup tomato sauce [90g]
 * ½ tsp taco seasoning
-* ½ tsp chill powder
+* ½ tsp chilli powder
 * Pinch of red pepper flakes
 * ¼ tsp cumin
 

@@ -15,7 +15,7 @@ body {
 
 @page {
   padding:0;
-  margin: 16mm;
+  margin: 0.6in;
   size: 6in 9in;
 
   @footnotes {
@@ -40,7 +40,7 @@ body {
   @bottom-left {
     font: 8pt Baskerville, Palatino, "Hoefler Text", Minion Pro, Garamond, Cochin, Times New Roman, serif;
     content: counter(page);
-    padding-bottom: 1.5em;
+    padding-bottom: 0;
     vertical-align: top;
   }
 }
@@ -59,7 +59,7 @@ body {
     content: counter(page);
     text-align: right;
     vertical-align: top;
-    padding-bottom: 1.5em;
+    padding-bottom: 0;
   }
 }
 
@@ -146,7 +146,7 @@ img {
   page: blank;
 }
 
-#toc h2 {margin:0;padding:0 0 0.5cm 0;}
+#toc h2 {margin:0;padding:0 0 0.2in 0;}
 
 #toc ol {
   counter-reset: list-item;

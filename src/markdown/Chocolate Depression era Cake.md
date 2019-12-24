@@ -8,7 +8,7 @@
 * 1 tsp vanilla extract
 * 1 tsp white vinegar
 * ⅓ cup vegetable oil
-* 1 cup water
+* 1 cup water or cold brewed coffee
 
 #### for the Frosting
 

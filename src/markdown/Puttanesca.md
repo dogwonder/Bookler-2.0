@@ -1,7 +1,7 @@
 ### Ingredients
 
 * 4 tbsp olive oil 
-* 200g/7oz frozen chopped onions  (or 2 medium onions, roughly chopped)
+* 200g/7oz chopped onions  (or 2 medium onions, roughly chopped)
 * 4 garlic cloves, finely sliced
 * 125g/4½oz drained, pitted black olives, cut in half
 * 2 tbsp capers  (from a jar), drained
