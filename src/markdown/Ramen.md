@@ -18,7 +18,7 @@
 To garnish
 
 * 6 spring onions, roughly chopped and soaked in Rice wine (or similar)
-* Mayo (Black garlic oil)
+* Mayu (Black garlic oil)
 
 ### Method
 

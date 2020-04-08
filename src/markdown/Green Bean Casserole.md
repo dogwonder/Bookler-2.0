@@ -3,7 +3,7 @@
 * Kosher salt
 * 1 ½ pounds (680g) green beans, trimmed and cut into 2-inch lengths
 * 1 medium yellow onion, roughly chopped
-* ½ pound (225g) button or cremini mushrooms, stems trimmed
+* ½ pound (225g) button, stems trimmed
 * 3 cups (710ml) vegetable stock or low-sodium broth, plus more as needed
 * One (2-pound; 900g) head cauliflower, cored and cut into medium florets (1 ½ pounds or 680g after prep)
 * 3 tbsp (45ml) extra-virgin olive oil
