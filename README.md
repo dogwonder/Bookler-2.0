@@ -23,3 +23,5 @@ The book title and subtitle are also defined in the data.json file.
 
 ### PDF
 [Example file](example/book.pdf)
+
+Note the book size is 6in x 9in this can be changed in the CSS for specific print sizes. 
