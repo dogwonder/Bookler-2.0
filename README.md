@@ -8,6 +8,8 @@ Based on [Bookler](https://github.com/felixcohen/Bookler)
 
 `npm install`
 
+You might need to [manually install prince](https://www.princexml.com/doc/installing/) locally if npm install fails
+
 ### Build Process
 `gulp` for development
 `gulp build` for production abd PDF generation (builds to /dist)
