@@ -1,5 +1,3 @@
-
-const browserSync = require('browser-sync').create();
 const del = require('del');
 const data = require('gulp-data');
 const gulp = require('gulp');
@@ -23,19 +21,10 @@ const dir = {
 // Timestamp
 const ts = Math.round((new Date()).getTime() / 1000);
 
-// Prince()
-//     .inputs('index.html')
-//     .output('index-' + ts + '.pdf')
-//     .execute()
-//     .then(function () {
-//         console.log('OK: done')
-//     }, function (error) {
-//         console.log('ERROR: ', util.inspect(error))
-//     })
-
  // Markdown vars
 var env = new nunjucks.Environment(new nunjucks.FileSystemLoader(dir.src));
-markdown.register(env, marked);
+markdown.register(env, marked.parse);
+
 //Nunjucks
 gulp.task('nunjucks', () => {
     return gulp
@@ -70,24 +59,11 @@ gulp.task('move-files', () => {
       .pipe(gulp.dest(path.join(dir.dist)));
     let cover = gulp.src(path.join(dir.src, 'covers/frontcover.jpg'))
         .pipe(gulp.dest(path.join(dir.dist)));
-    // let scripts = gulp.src(['assets/scripts/gallery.js', 'assets/vendor/js.cookie.js'])
-    //   .pipe(gulp.dest(path.join(dir.dist, 'scripts')));
       return merge(css, cover);
   });
 
 
-// Static Server + watching scss/html files
-gulp.task('serve', () => {
-
-    browserSync.init({
-      server: dir.dist
-    });
-  
-});
-
 // Init
 // -----------------
-const dev = gulp.series('nunjucks', 'serve');
-const build = gulp.series('clean', 'nunjucks', 'move-files', 'prince');
-exports.default = dev;
-exports.build = build;
+exports.default = gulp.series('nunjucks');
+exports.prod = gulp.series('clean', 'nunjucks', 'move-files', 'prince');

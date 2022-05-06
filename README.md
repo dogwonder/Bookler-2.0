@@ -11,8 +11,8 @@ Based on [Bookler](https://github.com/felixcohen/Bookler)
 You might need to [manually install prince](https://www.princexml.com/doc/installing/) locally if npm install fails
 
 ### Build Process
-`gulp` for development
-`gulp build` for production abd PDF generation (builds to /dist)
+`npm run start` for development
+`npm run build` for production abd PDF generation (builds to /dist)
 
 [Prince XML](https://www.princexml.com/) can be used for non commercial purposes. If you wish to use this commerically [check out their website](https://www.princexml.com/purchase/).
 
