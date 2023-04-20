@@ -13,7 +13,7 @@
     "gulp-nunjucks": "^5.1.0",
     "marked": "^4.0.15",
     "merge-stream": "^2.0.0",
-    "nunjucks": "^3.2.3",
+    "nunjucks": "^3.2.4",
     "nunjucks-markdown": "^2.0.1",
     "path": "^0.12.7",
     "prince": "^1.9.6",
